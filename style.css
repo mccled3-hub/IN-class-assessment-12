@@ -6,6 +6,7 @@
 
 html{
   margin: 0 50px;
+  width: 100vw;
 }
 
 nav {
@@ -24,26 +25,38 @@ padding: 10px;
 nav a :hover{
  color: aqua;
 }
+
 main {
   width: 75vw;
 }
 
 .first {
   height: 400px;
-  width: 100%;
+  width: 100vw;
   display: flex;
 }
 
 .one {
+  color: white;
   background-image: url("https://tse2.mm.bing.net/th/id/OIP.6fAEs4zzzYdAMILk90HJSQHaE8?pid=Api&h=220&P=0");
+  flex: 1 30px;
+  background-size: cover;
+  background-position: center;
 }
 
 .two {
-  background-image: url("https://tse4.mm.bing.net/th/id/OIP.lxFM1ilnxYeONVY94UpwLQHaE8?pid=Api&h=220&P=0")
+  color: white;
+  background-image: url("https://tse4.mm.bing.net/th/id/OIP.lxFM1ilnxYeONVY94UpwLQHaE8?pid=Api&h=220&P=0");
+  flex: 1 30px;
+  background-size: cover;
+  background-position: right;
 }
 
 .three {
-  background-image: url("https://www.buildyouraquarium.com/wp-content/uploads/2022/09/Green-Lizard.jpg")
-
+  color: white;
+  background-image: url("https://www.buildyouraquarium.com/wp-content/uploads/2022/09/Green-Lizard.jpg");
+  flex: 1 30px;
+  background-size: cover;
+ background-position: center;
 }
 
