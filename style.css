@@ -13,6 +13,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   height: 75px;
+  width: 100%;
   text-transform: uppercase;
 }
 
@@ -32,12 +33,13 @@ main {
 
 .first {
   height: 400px;
-  width: 100vw;
+  width: 100%;
   display: flex;
 }
 
 .one {
   color: white;
+  font-size: 30px;
   background-image: url("https://tse2.mm.bing.net/th/id/OIP.6fAEs4zzzYdAMILk90HJSQHaE8?pid=Api&h=220&P=0");
   flex: 1 30px;
   background-size: cover;
@@ -46,6 +48,7 @@ main {
 
 .two {
   color: white;
+  font-size: 30px;
   background-image: url("https://tse4.mm.bing.net/th/id/OIP.lxFM1ilnxYeONVY94UpwLQHaE8?pid=Api&h=220&P=0");
   flex: 1 30px;
   background-size: cover;
@@ -54,9 +57,31 @@ main {
 
 .three {
   color: white;
+  font-size: 30px;
   background-image: url("https://www.buildyouraquarium.com/wp-content/uploads/2022/09/Green-Lizard.jpg");
   flex: 1 30px;
   background-size: cover;
  background-position: center;
+}
+
+.second {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.on {
+  color: white;
+  background-image: url("https://tse2.mm.bing.net/th/id/OIP.gtMrsyHcMwCIV-Aj_rq6bwHaEY?pid=Api&h=220&P=0");
+}
+
+.tw {
+  color: white;
+  background-image: url("https://outforia.com/wp-content/uploads/2021/03/Types_of_lizards_Komodo_0321.jpg");
+}
+
+.th {
+  color: white;
+  background-image: url("https://animalofthings.com/wp-content/uploads/2022/10/types-of-lizards-in-south-africa.jpg");
 }
 
