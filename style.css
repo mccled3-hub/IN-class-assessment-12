@@ -85,3 +85,8 @@ main {
   background-image: url("https://animalofthings.com/wp-content/uploads/2022/10/types-of-lizards-in-south-africa.jpg");
 }
 
+ footer {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+ }
