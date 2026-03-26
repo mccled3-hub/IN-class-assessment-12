@@ -73,20 +73,34 @@ main {
 .on {
   color: white;
   background-image: url("https://tse2.mm.bing.net/th/id/OIP.gtMrsyHcMwCIV-Aj_rq6bwHaEY?pid=Api&h=220&P=0");
+  background-size: cover;
+   width: 500px;
 }
 
 .tw {
   color: white;
   background-image: url("https://outforia.com/wp-content/uploads/2021/03/Types_of_lizards_Komodo_0321.jpg");
+  background-size: cover;
+   width: 500px;
 }
 
 .th {
   color: white;
   background-image: url("https://animalofthings.com/wp-content/uploads/2022/10/types-of-lizards-in-south-africa.jpg");
+  background-size: cover;
+   width: 500px;
 }
 
  footer {
   height: 200px;
   width: 100%;
   background-color: black;
+ }
+
+ footer a{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  text-decoration: none;
  }
